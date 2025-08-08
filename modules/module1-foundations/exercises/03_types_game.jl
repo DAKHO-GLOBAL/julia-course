@@ -33,7 +33,7 @@ println()
 
 # Partie 1 : Détective des Types
 println("🔍 Partie 1 : Détective des Types")
-println("-" * 30)
+println("-"^30)
 
 function jeu_detective_types()
     score = 0
@@ -70,7 +70,7 @@ end
 
 # Partie 2 : Défi de Conversion de Types
 println("\n🔄 Partie 2 : Arène de Conversion de Types")
-println("-" * 30)
+println("-" ^ 30)
 
 function defi_conversion()
     println("Convertissez les valeurs entre les types !")
@@ -104,7 +104,7 @@ end
 
 # Partie 3 : Jeu de Combat de Types - Héros du Burkina
 println("\n⚔️ Partie 3 : Combat des Héros Burkinabè")
-println("-" * 30)
+println("-" ^ 30)
 
 mutable struct GuerrierType
     nom::String
@@ -207,7 +207,7 @@ end
 
 # Partie 4 : Création de Type Personnalisé
 println("\n🏗️ Partie 4 : Créez Votre Animal Totem")
-println("-" * 30)
+println("-" ^ 30)
 
 struct AnimalTotem
     nom::String
@@ -248,7 +248,7 @@ end
 
 # Partie 5 : Défi de Performance des Types
 println("\n⚡ Partie 5 : Performance des Types")
-println("-" * 30)
+println("-" ^ 30)
 
 function demo_performance()
     println("Voyez comment les déclarations de types affectent la performance !")
